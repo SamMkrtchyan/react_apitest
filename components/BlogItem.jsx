@@ -2,8 +2,6 @@ import React from 'react';
 import Parser from 'html-react-parser';
 import Link from 'next/link';
 
-import Image from 'next/image'
-
 const Item = ({title, description, id, image_url}) => {
     // console.log(image_url)
     return(
